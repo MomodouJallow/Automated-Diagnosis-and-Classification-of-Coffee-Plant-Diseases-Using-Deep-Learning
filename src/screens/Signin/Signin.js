@@ -7,6 +7,8 @@ import { useNavigation } from "@react-navigation/native";
 import { auth } from "../../Firebase/Config";
 
 const navigation = useNavigation()
+
+// joy
 useEffect(() => {
     auth.onAuthStateChanged(user => {
         if(user) {
